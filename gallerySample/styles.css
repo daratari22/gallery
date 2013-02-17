@@ -54,3 +54,96 @@ table {
 }
 
 /* Your styles go here */
+
+.wrap {
+	width: 600px;
+	margin: 25px;
+}
+
+.wrap h1{
+	font-family: monospace;
+	font-size: 30px;
+	color: #555555;
+	margin-bottom: 20px;
+}
+
+.wrap li {
+	font-family: monospace;
+	font-size: 14px;
+	line-height: 18px;
+	color: #777777;
+	margin-bottom: 20px;
+}
+.wrap p {
+	font-family: monospace;
+	font-size: 14px;
+	color: #777777;
+	margin-top: 35px;
+	border-top: 1px solid #eeeeee;
+	padding-top: 35px;
+}
+
+.wrap button {
+	text-align: center;
+	font-family: monospace;
+	font-size: 18px;
+	color: #ffffff;
+	width: 120px;
+	padding-top: 3px;
+	padding-bottom: 5px;
+	margin-top: 30px;
+	margin-right: 5px;
+	background-color: #777777; 
+	text-decoration: none;
+	border: none;
+	cursor: pointer;
+}
+
+.wrap button:hover {
+	color: #ffffff;
+	background-color: #ff9933; 
+	text-decoration: none;
+	border: none;
+}
+
+#story {
+	font-family: monospace;
+	font-size: 18px;
+	margin-top: 30px;
+	border-top: 1px solid #eeeeee;
+	padding-top: 30px;
+}
+
+.wrap input{
+	text-align: left;
+	border: 1px solid #dddddd;
+	padding: 5px;
+	width: 100px;
+	height: 20px;
+	margin-right: 2px;
+	margin-bottom: 10px;
+	margin-top: 5px;
+}
+
+.reset{
+	text-align: center;
+	font-family: monospace;
+	font-size: 18px;
+	color: #ffffff;
+	width: 500px;
+	padding-top: 3px;
+	padding-bottom: 5px;
+	margin-top: 30px;
+	margin-right: 5px;
+	background-color: #777777; 
+	text-decoration: none;
+	border: none;
+	cursor: pointer;
+}
+
+.reset:hover {
+	color: #ffffff;
+	background-color: #ff9933; 
+	text-decoration: none;
+	border: none;
+}

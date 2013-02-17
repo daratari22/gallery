@@ -20,9 +20,52 @@
 </head>
 <body>
 
-	<div class="wrap" >
-
+	<div class="wrap">
+		
+		<h1>Slideshow Gallery</h1>
+		
+		<div> 
+			<img id="image" src="images/image1.jpg">
+		</div>	
+		
+		<button id="back">Back</button>
+		<button id="next">Next</button>
+		
 	</div>
+	
+	<script type="text/javascript" charset="utf-8">
+	
+		//Array of image srcs
+		var images = [src="images/image1.jpg", src="images/image2.jpg", src="images/image3.jpg"];
+		
+		//Contains the array index of the current viewed image
+		var current_image = 0;
+		
+		var back = document.querySelector("#back");
+		
+		var next = document.querySelector("#next");
+		
+		var image = document.querySelector("#image");
+		
+		//Actions of buttons for slideshow
+		
+		back.onclick = function(){
+			current_image = current_image - 1;
+			if(current_image < 0){
+				current_image = images.length-1;
+			}
+			image.src = images[current_image];
+		}
+		
+		next.onclick = function(){
+			current_image = current_image + 1;
+			if(current_image > images.length-1){
+				current_image = 0;
+			}
+			image.src = images[current_image];
+		}
+		
+	</script>
 	
 </body>
 </html>
